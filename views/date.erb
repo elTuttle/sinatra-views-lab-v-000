@@ -4,6 +4,6 @@
     </head>
     <body>
         <% today = DateTime.new %>
-        <p><%= "The date is #{today.strttime}" %></p>
+        <p><%= today.strftime("The date is %A, %B %e, %Y") %></p>
     </body>
 </html>
